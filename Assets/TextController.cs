@@ -80,6 +80,7 @@ public class TextController : MonoBehaviour
 		}
 	}
 	
+	#region State handler methods
 	void in_closet ()
 	{
 		text.text = "Inside the closet you see a cleaner's uniform that looks about your size! " +
@@ -290,4 +291,5 @@ public class TextController : MonoBehaviour
 			myState = States.closet_door;
 		}  
 	}
+	#endregion
 }
